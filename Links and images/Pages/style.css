@@ -1,0 +1,26 @@
+* {
+	background-color: lightblue;
+}
+
+#elementsbox {
+	border: 4px solid black; 
+	padding: 20px;
+}
+
+.boxlinks {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  border: 3px dashed green;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.strawberryimg{
+	border: 3px solid red;
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+}

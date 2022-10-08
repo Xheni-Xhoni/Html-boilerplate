@@ -1,0 +1,19 @@
+h1{
+	color: yellow;
+}
+
+h2{
+	color: #FF0000;
+}
+
+h3{
+	color: rgb(0,255,0);
+}
+
+h4{
+	color: hsl(238, 100%, 16%);
+}
+
+.ColoredHeadings{
+	background-color: #00521f;
+}
