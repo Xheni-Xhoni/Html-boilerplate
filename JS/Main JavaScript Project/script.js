@@ -52,7 +52,7 @@ function getPlayerChoice(){
 function game(){
     let scorePlayer = 0;
     let scoreComputer = 0;
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 6; i++) {
         const playerSelection = getPlayerChoice();
         const computerSelection = getComputerChoice();
         console.log(playRound(playerSelection, computerSelection));

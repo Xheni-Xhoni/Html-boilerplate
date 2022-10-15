@@ -7,4 +7,3 @@ if (number1 == number2) {
 } else {
     prompt(number1 + " is lesser than " + number2);
 }
-  
