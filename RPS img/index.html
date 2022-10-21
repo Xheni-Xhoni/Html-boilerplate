@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> R S S</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<h1 class="header">Rock Paper Scissors v1.0</h1>
+    <div class="container">
+        <div class="main-game">
+            <h3>Choose your weapon:</h3>
+            <button class="btn" id="rock">Rock</button>
+            <button class="btn" id="paper">Paper</button>
+            <button class="btn" id="scissors">Scissors</button>
+            <p id="winText"></p>
+            <div class="scoreShow">
+                <div class="score">
+                    <label for="playerScore">Player Score</label>
+                    <input id="playerScore" type="text" value="0" disabled>
+                </div>
+                <div class="score">
+                    <label for="computerScore">Computer Score</label>
+                    <input id="computerScore" type="text" value="0" disabled>
+                </div>
+            </div>
+            <p id="gameOverText"></p>
+        </div>
+        <div class="game-info">
+            <h3>Game Rules:</h3>
+            <ol>
+                <li>Click on button to choose your weapon.</li>
+                <li>Paper beats Rock.</li>
+                <li>Scissors beats Paper.</li>
+                <li>Rock beats Scissors.</li>
+                <li>Whoever wins 5 rounds first bags the game.</li>
+            </ol>
+            <h3>History:</h3>
+            <table id="history">
+                <tr>
+                    <th>Rounds</th>
+                    <th>Player</th>
+                    <th>Computer</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

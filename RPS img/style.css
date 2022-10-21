@@ -1,0 +1,74 @@
+.header{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: flex-start;
+}
+
+.main-game h3{
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#winText{
+    font-size: 14px;
+}
+
+.scoreShow{
+    display: flex;
+    gap: 8px;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.score{
+    width: 150px;
+    margin: 0px;
+}
+
+.score label{
+    display: block;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.score input{
+    color: #000;
+    text-align: center;
+    width: 30%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 8px 0px;
+}
+
+#link-reload{
+    color: #00f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.game-info h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.game-info th, .game-info td{
+    padding: 5px 10px;
+    text-align: left;
+}
